@@ -47,11 +47,17 @@ def calculator():
     num2 = int(input("Enter your second number: ))
                      
     if choice == 1:
-      print("Add num1,num2: ")
+      print("Add num1,num2: ", num1 + num2)
     elif choice == 2:
-      print("Subtract num1,num2: ")
+      print("Subtract num1,num2: ", num1 - num2)
     elif choice == 3:
-      print("Multiply num1,num2: ")
-      
+      print("Multiply num1,num2: ", num1 * num2)
+    elif choice == 4:
+      if num2 == 0:
+        print("Cannot be divided by zero")
+       else:
+        print("Divide num1,num2: ", num1 / num2)
+    elif choice == 5:
+                     
                  
 
