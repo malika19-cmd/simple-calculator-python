@@ -55,7 +55,7 @@ def calculator():
     elif choice == 4:
       if num2 == 0:
         print("Cannot be divided by zero")
-       else:
+      else:
         print("Result: ", num1 / num2)
     elif choice == 5:
        print("Result: ", num1 % num2)
