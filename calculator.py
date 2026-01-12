@@ -41,13 +41,13 @@ def calculator():
       print("INVALID CHOICE!")
       continue
       
-  try:
-    num1 = int(input("Enter your first number: "))
+    try:
+      num1 = int(input("Enter your first number: "))
 
-    num2 = int(input("Enter your second number: "))
-  except ValueError:
-    print("Invalid Input! Please enter numbers only.")
-       continue
+      num2 = int(input("Enter your second number: "))
+    except ValueError:
+      print("Invalid Input! Please enter numbers only.")
+      continue
                      
     if choice == 1:
       print("Result: ", num1 + num2)
@@ -61,9 +61,9 @@ def calculator():
       else:
         print("Result: ", num1 / num2)
     elif choice == 5:
-       print("Result: ", num1 % num2)
+      print("Result: ", num1 % num2)
     elif choice == 6:
-       print("Result: ", num1 ** num2)
+      print("Result: ", num1 ** num2)
     else:
        print("Invalid Choice!")
 Calculator()
