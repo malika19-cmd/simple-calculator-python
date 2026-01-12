@@ -66,7 +66,7 @@ def calculator():
       print("Result: ", num1 ** num2)
     else:
        print("Invalid Choice!")
-Calculator()
+calculator()
 
                      
                  
