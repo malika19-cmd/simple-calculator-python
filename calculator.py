@@ -33,18 +33,21 @@ def calculator():
     6.POWER
     7.EXIT
     """)
-
-  try:
+    
     choice = int(input("Enter your choice: "))
     if choice == 7:
       print("THANKYOU FOR USING THE CALCULATOR!")
     if choice < 1 and choice > 7:
       print("INVALID CHOICE!")
       continue
-
+      
+  try:
     num1 = int(input("Enter your first number: "))
 
     num2 = int(input("Enter your second number: "))
+  except ValueError:
+    print("Invalid Input! Please enter numbers only.")
+       continue
                      
     if choice == 1:
       print("Result: ", num1 + num2)
