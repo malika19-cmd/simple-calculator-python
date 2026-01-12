@@ -15,7 +15,7 @@ Python
 
 ## How to Run
 Make sure python is installed
-Open command prompt
+Open terminal/command prompt
 Navigate to the project folder
 Run the command:
 
