@@ -37,6 +37,7 @@ def calculator():
     choice = int(input("Enter your choice: "))
     if choice == 7:
       print("THANKYOU FOR USING THE CALCULATOR!")
+      break  
     if choice < 1 and choice > 7:
       print("INVALID CHOICE!")
       continue
