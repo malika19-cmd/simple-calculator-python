@@ -34,13 +34,13 @@ def calculator():
     7.EXIT
     """)
     
-    choice = int(input("Enter your choice: "))
+    choice = int(input("Enter your choice: ")) 
+    if choice < 1 or choice > 7:
+      print("INVALID CHOICE!")
+      continue
     if choice == 7:
       print("THANKYOU FOR USING THE CALCULATOR!")
       break  
-    if choice < 1 and choice > 7:
-      print("INVALID CHOICE!")
-      continue
       
     try:
       num1 = int(input("Enter your first number: "))
